@@ -1,6 +1,6 @@
 # sortpy
 
-Sorting algorithms in Python.
+Sorting algorithms in Python for Python list.
 
 Currently implemented:
 - None
