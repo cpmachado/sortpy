@@ -3,7 +3,8 @@
 Sorting algorithms in Python for Python list.
 
 Currently implemented:
-- None
+
+- quicksort
 
 
 ## LICENSE
