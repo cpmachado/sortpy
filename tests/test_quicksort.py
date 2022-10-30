@@ -1,4 +1,4 @@
-from sortpy.quicksort import quicksort
+from sortpy import quicksort
 
 
 def test_sorted():
