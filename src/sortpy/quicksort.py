@@ -8,7 +8,7 @@ def quicksort(la: List[Any]) -> List[Any]:
     pivot, *rest = la
 
     low = [x for x in rest if x < pivot]
-    equal = [x for x in rest if x == pivot]
     high = [x for x in rest if x > pivot]
+    equal = [x for x in la if x == pivot]
 
-    return quicksort(low) + [pivot] + equal + quicksort(high)
+    return quicksort(low) + equal + quicksort(high)
